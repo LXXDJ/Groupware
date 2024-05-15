@@ -25,7 +25,7 @@ ul,ol,li{list-style:none;}
 table{width:100%;}
 iframe{display:block;}
 article{width:100%;}
-input, select{padding:0 10px;min-height:37px;background:#fff;border:1px solid #E1E1E1;border-radius:5px;}
+input, select{padding:0 10px;min-height:34px;background:#fff;border:1px solid #E1E1E1;border-radius:5px;}
 input:disabled{cursor:default;}
 input:focus:not(input[type=button],input[type=submit]),textarea:focus{outline:none;background-color:rgb(232, 240, 254);}
 /* input[type=date],.el_datepicker{background:url("/img/icon/calendar.png")no-repeat 92% center/23px;}

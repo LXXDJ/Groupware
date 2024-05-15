@@ -4,7 +4,9 @@
 /* 웹 접근성(WA) Web Accessibility */
 .WA{display:inline-block;overflow:hidden;border:0;position:absolute;margin:-1px;width:1px;height:1px;clip:rect(1px, 1px, 1px, 1px);clip-path:inset(50%);top:0;left:0;}
 /* 공통 */
-.ly_all{background:#f9f9f9!important;min-height:100vh;padding-top:65px;padding-left:200px;}
+.ly_all{background:#f9f9f9!important;min-height:100vh;padding-top:65px;}
+.ly_body{display:flex;}
+.ly_cont{flex-grow:1;padding:30px;}
 /* .ly_all{min-height:100vh;position:relative;padding-top:75px;padding-bottom:550px;}
 .ly_maxWD{width:1280px;margin-left:auto;margin-right:auto;}
 .ly_midWD{width:650px;margin-left:auto;margin-right:auto;}
@@ -47,14 +49,12 @@
 .bl_listNumRing>li:nth-of-type(9):before{content:"⑨";}
 .bl_listNumRing>li:nth-of-type(10):before{content:"⑩";}
 
-.el_lv1Head{font-size:28px!important;font-weight:700;text-align:center;}
+.el_lv1Head{font-size:28px!important;font-weight:700;}
 
-.el_btnS{font-size:13px;padding:5px 10px;}
-.el_btnM{font-size:14px;width:120px;height:48px;display:inline-flex;justify-content:center;align-items:center;}
+.el_btnS{border-radius:5px;font-size:13px;padding:6px 10px;}
+.el_btnM{border-radius:5px;font-size:14px;width:120px;height:48px;display:inline-flex;justify-content:center;align-items:center;}
 .el_btnblueBack{background:#006CD0;border-color:#006CD0;color:#fff;}
 .el_btnblueBord{border-color:#006CD0;color:#006CD0;}
-.el_btnPointBack{background:#426B1F;border:1px solid #426B1F;color:#fff;}
-.el_btnPointBord{background:#fff;border:1px solid #426B1F;color:#426B1F;}
 .el_btn8Back{background:#888;border:1px solid #888;color:#fff;}
 .el_btn8Bord{background:#fff;border:1px solid #888;color:#888;}
 button:disabled{background:#fff;border:1px solid #888;color:#888;cursor:default;}
@@ -107,7 +107,7 @@ input[type=date].hp_inputBack,.hp_inputBack{background-color:#eee;border:none;}
 .hp_ValignBase{vertical-align:baseline!important;}
 .hp_keepAll{word-break:keep-all;}
 .hp_breakAll{word-break:break-all;}
-.hp_ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block;vertical-align:middle;}
+.hp_ellipsis{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:inline-block;vertical-align:middle;text-align:left;}
 .hp_ellipsis2{white-space:unset;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;}
 .hp_ellipsis3{white-space:unset;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;}
 .hp_overVisible{overflow:visible!important;}
