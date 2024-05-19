@@ -53,10 +53,13 @@
 
 .el_btnS{border-radius:5px;font-size:13px;padding:6px 10px;}
 .el_btnM{border-radius:5px;font-size:14px;width:120px;height:48px;display:inline-flex;justify-content:center;align-items:center;}
-.el_btnblueBack{background:#006CD0;border-color:#006CD0;color:#fff;}
-.el_btnblueBord{border-color:#006CD0;color:#006CD0;}
+.el_btnF{border-radius:5px;width:100%;padding:10px 0;}
+.el_btnblueBack{background:#006CD0;border:1px solid #006CD0;color:#fff;}
+.el_btnblueBord{border:1px solid #006CD0;color:#006CD0;}
 .el_btn8Back{background:#888;border:1px solid #888;color:#fff;}
 .el_btn8Bord{background:#fff;border:1px solid #888;color:#888;}
+.el_btn0Back{background:#000;border:1px solid #000;color:#fff;}
+.el_btn0Bord{border:1px solid #000;color:#000;}
 button:disabled{background:#fff;border:1px solid #888;color:#888;cursor:default;}
 
 .bl_radioBxArea{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:inline-block;cursor:pointer;}
@@ -82,10 +85,7 @@ button:disabled{background:#fff;border:1px solid #888;color:#888;cursor:default;
 .el_dim:before{content:"";display:block;width:100%;height:100%;overflow:hidden;background:rgba(0,0,0,0.7);position:fixed;top:0;left:0;z-index:11;}
 .el_shadowE{-webkit-box-shadow:0px 0px 10px 0px #eee;box-shadow:0px 0px 10px 0px #eee;}
 .el_shadowD{-webkit-box-shadow:0px 0px 10px 0px #ddd;box-shadow:0px 0px 10px 0px #ddd;}
-
-.bl_popupBack{z-index:99;width:100%;height:100%;left:0;}
-.bl_popup{max-width:480px;width:95%;max-height:97vh;overflow-y:auto;position:fixed;top:0%;left:50%;transform:translate(-50%,3vw);z-index:99;border-radius:10px;}
-.bl_popupWrap{position:relative;}
+.el_shadowD4{-webkit-box-shadow:0px 4px 4px 0px #ddd;box-shadow:0px 4px 4px 0px #ddd;}
 
 input[type=date]{background-color:#F4F6FA;}/* 포커스 됐을 때, 배경색 변경 유지를 위해 */
 input[type=date].hp_inputBack,.hp_inputBack{background-color:#eee;border:none;}
@@ -128,12 +128,15 @@ input[type=date].hp_inputBack,.hp_inputBack{background-color:#eee;border:none;}
 .hp_lh1-5{line-height:1.5!important;}
 .hp_lh1-8{line-height:1.8!important;}
 .hp_lh2{line-height:2!important;}
+.hp_lh2-5{line-height:2.5!important;}
 
 .hp_wAuto{width:auto!important;}
 .hp_w25{width:25%!important;}
 .hp_w30{width:30%!important;}
 .hp_w35{width:35%!important;}
 .hp_w50{width:50%!important;}
+.hp_w60{width:60%!important;}
+.hp_w70{width:70%!important;}
 .hp_w80{width:80%!important;}
 .hp_w90{width:90%!important;}
 .hp_w95{width:95%!important;}
@@ -141,6 +144,7 @@ input[type=date].hp_inputBack,.hp_inputBack{background-color:#eee;border:none;}
 .hp_w70px{width:70px!important;}
 .hp_w120px{width:120px!important;}
 .hp_w200px{width:200px!important;}
+.hp_w400px{width:400px!important;}
 .hp_w500px{width:500px!important;}
 .hp_w600px{width:600px!important;}
 .hp_w650px{width:650px!important;}
@@ -187,9 +191,9 @@ input[type=date].hp_inputBack,.hp_inputBack{background-color:#eee;border:none;}
 .hp_pointColor{color:#426B1F!important;}
 .hp_blueColor{color:#006CD0!important;}
 
-.hp_fBack{background:#fff!important;}
+.hp_fBack{background-color:#fff!important;}
 .hp_f9Back{background-color:#f9f9f9!important;}
-.hp_pointBack{background:#426B1F!important;}
+.hp_skyBack{background-color:rgb(232, 240, 254)!important;}
 
 .hp_padding0{padding:0!important;}
 .hp_padding2{padding:2px!important;}
