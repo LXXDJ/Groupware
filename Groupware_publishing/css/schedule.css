@@ -1,0 +1,8 @@
+.el_scheLabel{display:inline-block;border-radius:3px;padding:0 10px;line-height:2;color:#363636;}
+.el_scheLabel__all{background:#ebebeb;}
+.el_scheLabel__department{background:rgb(232, 240, 254);}
+.el_scheLabel__team{background:rgb(253, 236, 200);}
+.el_scheLabel__personal{background:rgb(245, 224, 233);}
+
+.el_scheIcon{background:no-repeat center/contain;width:24px;height:24px;}
+.el_scheIcon__write{background-image:url('/img//icon/icon_edit.png');}

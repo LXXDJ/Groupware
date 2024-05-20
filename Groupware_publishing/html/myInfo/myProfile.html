@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/common/reset.css"/>
-    <link rel="stylesheet" href="/css/common/font.css"/>
-    <link rel="stylesheet" href="/css/common/base.css"/>
-    <link rel="stylesheet" href="/css/common/common.css"/>
-    <link rel="stylesheet" href="/css/login.css"/>
+    <link rel="stylesheet" href="/css/common/reset.css" />
+    <link rel="stylesheet" href="/css/common/font.css" />
+    <link rel="stylesheet" href="/css/common/base.css" />
+    <link rel="stylesheet" href="/css/common/common.css" />
+    <link rel="stylesheet" href="/css/login.css" />
 </head>
+
 <body>
     <div class="ly_all">
         <div class="bl_header el_shadowD"></div>
@@ -27,21 +29,28 @@
                     <h5 class="hp_fw700 hp_fs18 hp_mb10">기본정보</h5>
                     <table class="bl_tb3">
                         <colgroup>
-                            <col style="width:150px"/>
-                            <col style="width:150px"/>
-                            <col style="width:*"/>
-                            <col style="width:150px"/>
-                            <col style="width:*"/>
+                            <col style="width:150px" />
+                            <col style="width:150px" />
+                            <col style="width:*" />
+                            <col style="width:150px" />
+                            <col style="width:*" />
                         </colgroup>
                         <tbody>
                             <tr>
                                 <th rowspan="3" class="hp_padding0">
-                                    <div class="el_profile__img" style="background-image:url('/img/sample/profile1.PNG');"></div>
+                                    <div class="el_profile__img"
+                                        style="background-image:url('/img/sample/profile1.PNG');"></div>
                                 </th>
                                 <th colspan="row">이름</th>
                                 <td>홍길동</td>
                                 <th colspan="row">입사일</th>
                                 <td>2024.01.12</td>
+                            </tr>
+                            <tr>
+                                <th colspan="row">사원번호</th>
+                                <td>12324</td>
+                                <th colspan="row">아이디</th>
+                                <td>hong1234</td>
                             </tr>
                             <tr>
                                 <th colspan="row">부서</th>
@@ -50,20 +59,24 @@
                                 <td>대리</td>
                             </tr>
                             <tr>
-                                <th colspan="row">주민등록번호</th>
-                                <td>123456-1234567</td>
+                                <th colspan="row">이메일</th>
+                                <td colspan="4"><input type="text" class="hp_w100" id="" name=""
+                                        value="hong1234@naver.com" /></td>
+                            </tr>
+                            <tr>
                                 <th colspan="row">휴대폰</th>
-                                <td><input type="text" class="hp_w100" id="" name="" value="010-1234-5678"/></td>
+                                <td colspan="4"><input type="text" class="hp_w100" id="" name=""
+                                        value="010-1234-5678" /></td>
                             </tr>
                             <tr>
                                 <th colspan="row">주소</th>
                                 <td colspan="4">
                                     <div class="ly_flex">
-                                        <input type="text" class="hp_w100" id="" name="" value="01234"/>
-                                        <input type="button" class="hp_ml10 el_btnblueBord" value="우편번호 검색"/>
+                                        <input type="text" class="hp_w100" id="" name="" value="01234" />
+                                        <input type="button" class="hp_ml10 el_btnblueBord" value="우편번호 검색" />
                                     </div>
-                                    <input type="text" class="hp_w100 hp_mt10" id="" name="" value="서울시 종로구"/>
-                                    <input type="text" class="hp_w100 hp_mt10" id="" name="" value="상세주소"/>
+                                    <input type="text" class="hp_w100 hp_mt10" id="" name="" value="서울시 종로구" />
+                                    <input type="text" class="hp_w100 hp_mt10" id="" name="" value="상세주소" />
                                 </td>
                             </tr>
                         </tbody>
@@ -71,9 +84,9 @@
                     <h5 class="hp_fw700 hp_fs18 hp_mb10 hp_mt30">부가정보</h5>
                     <table class="bl_tb3">
                         <colgroup>
-                            <col style="width:calc(100%/3)"/>
-                            <col style="width:calc(100%/3)"/>
-                            <col style="width:calc(100%/3)"/>
+                            <col style="width:calc(100%/3)" />
+                            <col style="width:calc(100%/3)" />
+                            <col style="width:calc(100%/3)" />
                         </colgroup>
                         <thead>
                             <tr>
@@ -90,36 +103,15 @@
                                         <option val="">선택</option>
                                     </select>
                                 </td>
-                                <td><input type="text" class="hp_w100 " id="" name="" value="123-456-789123"/></td>
+                                <td><input type="text" class="hp_w100 " id="" name="" value="123-456-789123" /></td>
                             </tr>
                         </tbody>
                     </table>
-                    <!-- <h5 class="hp_fw700 hp_fs18 hp_mb10 hp_mt30">비밀번호 변경</h5>
-                    <table class="bl_tb3">
-                        <colgroup>
-                            <col style="width:150px"/>
-                            <col style="width:*"/>
-                        </colgroup>
-                        <tbody>
-                            <tr>
-                                <th scope="row">기존 비밀번호</th>
-                                <td><input type="password" class="hp_w100 " id="" name="" value=""/></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">새 비밀번호</th>
-                                <td><input type="password" class="hp_w100 " id="" name="" value=""/></td>
-                            </tr>
-                            <tr>
-                                <th scope="row">새 비밀번호 확인</th>
-                                <td><input type="password" class="hp_w100 " id="" name="" value=""/></td>
-                            </tr>
-                        </tbody>
-                    </table> -->
                 </section>
                 <div class="hp_alignR hp_mt10">
                     <button type="button" class="el_btnS el_btnblueBack">저장</button>
                     <button type="button" class="el_btnS el_btn0Back hp_ml5">비밀번호 변경</button>
-                    <div class="bl_popBack">
+                    <!-- <div class="bl_popBack">
                         <div class="bl_popup">
                             <div class="bl_popWrap">
                                 <div class="bl_popHead ly_spaceBetween ly_fitemC">
@@ -129,21 +121,24 @@
                                 <div class="hp_padding30">
                                     <table class="bl_tb3">
                                         <colgroup>
-                                            <col style="width:150px"/>
-                                            <col style="width:*"/>
+                                            <col style="width:150px" />
+                                            <col style="width:*" />
                                         </colgroup>
                                         <tbody>
                                             <tr>
                                                 <th scope="row">기존 비밀번호</th>
-                                                <td><input type="password" class="hp_w100 " id="" name="" value=""/></td>
+                                                <td><input type="password" class="hp_w100 " id="" name="" value="" />
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">새 비밀번호</th>
-                                                <td><input type="password" class="hp_w100 " id="" name="" value=""/></td>
+                                                <td><input type="password" class="hp_w100 " id="" name="" value="" />
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <th scope="row">새 비밀번호 확인</th>
-                                                <td><input type="password" class="hp_w100 " id="" name="" value=""/></td>
+                                                <td><input type="password" class="hp_w100 " id="" name="" value="" />
+                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -154,10 +149,11 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
 </body>
+
 </html>

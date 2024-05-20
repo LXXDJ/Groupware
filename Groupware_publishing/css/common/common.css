@@ -41,7 +41,7 @@
 
 .bl_tb3{border:1px solid #ebebeb;}
 .bl_tb3 th{background:#f9f9f9;}
-.bl_tb3 th,.bl_tb3 td{padding:10px;text-align:center;}
+.bl_tb3 th,.bl_tb3 td{padding:10px;}
 .bl_tb3 tr{border-top:1px solid #ebebeb;}
 .bl_tb3 tr:first-child{border-top:none;}
 
