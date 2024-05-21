@@ -17,6 +17,7 @@
 .ly_flexC{display:flex!important;justify-content:center;}
 .ly_flexEnd{display:flex!important;justify-content:flex-end;}
 .ly_flex{display:flex!important;}
+.ly_inflex{display:inline-flex!important;}
 .ly_flexWrap{flex-wrap:wrap!important;}
 .ly_fdirecCol{flex-direction:column;}
 .ly_fitemC{align-items:center!important;}
