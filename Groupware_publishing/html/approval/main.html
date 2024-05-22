@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="/css/common/font.css" />
     <link rel="stylesheet" href="/css/common/base.css" />
     <link rel="stylesheet" href="/css/common/common.css" />
+    <link rel="stylesheet" href="/css/approval.css" />
+    <script>
+        $(function(){
+            $(".bl_navToggle__btn").click(function(){
+                $(".bl_navToggle__cont")
+            })
+        })
+    </script>
 </head>
 
 <body>
@@ -21,24 +29,33 @@
                     <li>
                         <h3 class="bl_nav__ttlSub">기안</h3>
                         <ul class="bl_nav__menuSub">
-                            <li><a class="" href="/html/approval/draftWrite.html">작성하기</a></li>
-                            <li><a class="" href="/html/approval/draftList.html">임시저장</a></li>
+                            <li><a class="" href="">작성하기</a></li>
+                            <li><a class="" href="">임시저장</a></li>
                         </ul>
                     </li>
                     <li>
-                        <h3 class="bl_nav__ttlSub">결재</h3>
+                        <h3 class="bl_nav__ttlSub bl_navToggle__btn">보낸결재함</h3>
+                        <ul class="bl_nav__menuSub bl_navToggle__cont">
+                            <li><a class="" href="">대기</a></li>
+                            <li><a class="" href="">진행중</a></li>
+                            <li><a class="" href="">완료</a></li>
+                            <li><a class="" href="">반려</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="bl_nav__ttlSub">받은결재함</h3>
                         <ul class="bl_nav__menuSub">
-                            <li><a class="" href="/html/approval/approvalWaiting.html">결재대기함</a></li>
-                            <li><a class="" href="/html/approval/approvalProgress.html">결재진행중</a></li>
-                            <li><a class="" href="/html/approval/approvalComplete.html">완료문서함</a></li>
-                            <li><a class="" href="/html/approval/approvalReturn.html">반려문서함</a></li>
-                            <li><a class="" href="/html/approval/approvalReference.html">참조/열람</a></li>
+                            <li><a class="" href="">대기</a></li>
+                            <li><a class="" href="">완료</a></li>
+                            <li><a class="" href="">반려</a></li>
+                            <li><a class="" href="">참조/열람</a></li>
                         </ul>
                     </li>
                     <li>
                         <h3 class="bl_nav__ttlSub">개인보관함</h3>
                         <ul class="bl_nav__menuSub">
-                            <li><a class="" href="">교육</a></li>
+                            <li><a class="" href="">연차</a></li>
+                            <li><a class="" href="">중요</a></li>
                         </ul>
                     </li>
                     <li>
@@ -46,7 +63,6 @@
                         <ul class="bl_nav__menuSub">
                             <li><a class="" href="/html/approval/settingSign.html">서명관리</a></li>
                             <!-- <li><a class="" href="/html/approval/settingEntrust.html">위임관리</a></li> -->
-                            <li><a class="" href="">개인보관함관리</a></li>
                             <li><a class="" href="">결재양식관리</a></li>
                         </ul>
                     </li>
