@@ -10,10 +10,18 @@
     <link rel="stylesheet" href="/css/common/base.css" />
     <link rel="stylesheet" href="/css/common/common.css" />
     <link rel="stylesheet" href="/css/approval.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script>
         $(function(){
             $(".bl_navToggle__btn").click(function(){
-                $(".bl_navToggle__cont")
+                let cont = $(this).next(".bl_navToggle__cont");
+                if(cont.css('display') === 'none'){
+                    $(this).addClass('bl_navToggle__open');
+                    cont.slideDown();
+                }else{
+                    $(this).removeClass('bl_navToggle__open');
+                    cont.slideUp();
+                }
             })
         })
     </script>
@@ -43,26 +51,27 @@
                         </ul>
                     </li>
                     <li>
-                        <h3 class="bl_nav__ttlSub">받은결재함</h3>
-                        <ul class="bl_nav__menuSub">
+                        <h3 class="bl_nav__ttlSub bl_navToggle__btn">받은결재함</h3>
+                        <ul class="bl_nav__menuSub bl_navToggle__cont">
                             <li><a class="" href="">대기</a></li>
                             <li><a class="" href="">완료</a></li>
                             <li><a class="" href="">반려</a></li>
-                            <li><a class="" href="">참조/열람</a></li>
+                            <li><a class="" href="">참조</a></li>
                         </ul>
                     </li>
                     <li>
-                        <h3 class="bl_nav__ttlSub">개인보관함</h3>
-                        <ul class="bl_nav__menuSub">
+                        <h3 class="bl_nav__ttlSub bl_navToggle__btn">개인보관함</h3>
+                        <ul class="bl_nav__menuSub bl_navToggle__cont">
                             <li><a class="" href="">연차</a></li>
-                            <li><a class="" href="">중요</a></li>
+                            <li><a class="" href="">교육</a></li>
                         </ul>
                     </li>
                     <li>
                         <h3 class="bl_nav__ttlSub">환경설정</h3>
                         <ul class="bl_nav__menuSub">
-                            <li><a class="" href="/html/approval/settingSign.html">서명관리</a></li>
-                            <!-- <li><a class="" href="/html/approval/settingEntrust.html">위임관리</a></li> -->
+                            <li><a class="" href="">서명관리</a></li>
+                            <li><a class="" href="">위임관리</a></li>
+                            <li><a class="" href="">개인보관함관리</a></li>
                             <li><a class="" href="">결재양식관리</a></li>
                         </ul>
                     </li>
