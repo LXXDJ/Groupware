@@ -22,7 +22,7 @@
                         <h5 class="hp_fw700 hp_fs18">결재라인</h5>
                         <button type="button" class="el_btnS el_btn8Bord hp_p3-5">결재라인 불러오기</button>
                     </div>
-                    <div class="ly_flex">
+                    <div class="ly_flex hp_relative">
                         <table class="bl_tb3 hp_alignC hp_w200px ly_fshirnk">
                             <tbody>
                                 <tr>
@@ -86,8 +86,8 @@
                                 </tr>
                                 <tr>
                                     <td class="el_approvalSign" style="background-image:url('')">
-                                        <button type="button" class="el_btnS el_btnblueBack">승인</button>
-                                        <button type="button" class="el_btnS el_btn8Back hp_ml5">반려</button>
+                                        <!-- <button type="button" class="el_btnS el_btnblueBack">승인</button>
+                                        <button type="button" class="el_btnS el_btn8Back hp_ml5">반려</button> -->
                                     </td>
                                 </tr>
                             </tbody>
@@ -132,10 +132,25 @@
                                     <td>이순신</td>
                                 </tr>
                                 <tr>
-                                    <td class="el_approvalSign" style="background-image:url('')"></td>
+                                    <td class="el_approvalSign" style="background-image:url('')">
+                                    </td>
                                 </tr>
                             </tbody>
                         </table>
+                        <!-- <div class="bl_popBack bl_rejectPop">
+                            <div class="bl_popup hp_w500px">
+                                <div class="bl_popWrap bl_profile">
+                                    <div class="bl_popHead ly_spaceBetween ly_fitemC">
+                                        <div class="hp_fs18">결재 반려</div>
+                                        <button type="button" class="bl_popup__closeBtn"></button>
+                                    </div>
+                                    <div class="hp_padding15 hp_alignC">
+                                        <textarea placeholder="결재 반려 사유를 입력해 주세요"></textarea>
+                                        <button type="button" class="el_btnS el_btn8Back hp_mt10">반려하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
                     </div>
                     <h5 class="hp_fw700 hp_fs18 hp_mb10 hp_mt30">결재정보</h5>
                     <table class="bl_tb3">
@@ -154,7 +169,10 @@
                             </tr>
                             <tr>
                                 <th scope="row">제목</th>
-                                <td colspan="3"><input type="text" class="hp_w100" placeholder="[팀명] MM/DD 기안양식명_이름"/></td>
+                                <td colspan="3">
+                                    <!-- <input type="text" class="hp_w100" placeholder="[팀명] MM/DD 기안양식명_이름"/> -->
+                                    [시스템팀] 05/29 휴가신청서_홍길동
+                                </td>
                             </tr>
                         </tbody>
                     </table>
@@ -168,7 +186,7 @@
                             <tr>
                                 <th scope="col">구분</th>
                                 <td>
-                                    <select class="hp_w120px">
+                                    <!-- <select class="hp_w120px">
                                         <option>선택</option>
                                         <option val="">연차</option>
                                         <option val="">오전반차</option>
@@ -178,19 +196,22 @@
                                         <option val="">병가</option>
                                         <option val="">공가</option>
                                         <option val="">경조사</option>
-                                    </select>
+                                    </select> -->
+                                    연차
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="col">시작일</th>
                                 <td>
-                                    <input type="date" class="hp_w120px"/>
+                                    <!-- <input type="date" class="hp_w120px"/> -->
+                                    2024-05-29
                                 </td>
                             </tr>
                             <tr>
                                 <th scope="col">종료일</th>
                                 <td>
-                                    <input type="date" class="hp_w120px"/>
+                                    <!-- <input type="date" class="hp_w120px"/> -->
+                                    2024-05-29
                                 </td>
                             </tr>
                             <tr>
@@ -200,10 +221,28 @@
                         </tbody>
                     </table>
                 </section>
+                <!-- <section class="bl_sect hp_padding15 hp_mt30">
+                    <table class="bl_tb3">
+                        <colgroup>
+                            <col style="width:200px"/>
+                            <col style="width:*"/>
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th scope="col" class="hp_dBack">반려사유</th>
+                                <td>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam sed fuga nobis architecto ex optio delectus fugiat explicabo numquam laudantium porro impedit dignissimos dicta, mollitia perspiciatis quibusdam voluptatem. Distinctio, maxime.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section> -->
                 <div class="hp_mt10 hp_alignR">
-                    <button type="button" class="el_btnS el_btnblueBord">임시저장</button>
+                    <!-- <button type="button" class="el_btnS el_btnblueBord">임시저장</button>
                     <button type="button" class="el_btnS el_btnblueBack hp_ml5">결재상신</button>
-                    <button type="button" class="el_btnS el_btn8Back hp_ml5">취소</button>
+                    <button type="button" class="el_btnS el_btn8Back hp_ml5">취소</button> -->
+                    <!-- <button type="button" class="el_btnS el_btnblueBord">수정</button> -->
+                    <!-- <button type="button" class="el_btnS el_btn0Bord hp_ml5">재작성</button> -->
+                    <!-- <button type="button" class="el_btnS el_btn0Back hp_ml5">개인보관함에 저장</button> -->
+                    <button type="button" class="el_btnS el_btn8Bord">목록</button>
                 </div>
             </div>
         </div>

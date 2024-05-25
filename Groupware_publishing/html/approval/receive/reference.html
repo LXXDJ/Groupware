@@ -15,7 +15,7 @@
         <div class="ly_body">
             <div class="bl_nav"></div>
             <div class="ly_cont">
-                <h4 class="el_lv1Head hp_mb30">결재진행중</h4>
+                <h4 class="el_lv1Head hp_mb30">받은결재함 [참조/열람]</h4>
                 <div class="ly_spaceBetween">
                     <button type="button" class="el_btnS el_btn8Back">삭제</button>
                     <form action="" method="">
@@ -32,26 +32,38 @@
                             <col style="width:*"/>
                             <col style="width:120px"/>
                             <col style="width:120px"/>
+                            <col style="width:120px"/>
                         </colgroup>
                         <thead>
                             <tr>
                                 <th scope="col"><input type="checkbox" class="" id="" name="" value="checkAll"/></th>
-                                <th scope="col">상신일</th>
+                                <th scope="col">공유형태</th>
                                 <th scope="col">결재양식</th>
                                 <th scope="col">제목</th>
-                                <th scope="col">이전결재자</th>
-                                <th scope="col">다음결재자</th>
+                                <th scope="col">첨부파일</th>
+                                <th scope="col">작성자</th>
+                                <th scope="col">완료일</th>
                             </tr>
                         </thead>
                         <!-- 15개씩 나열 -->
                         <tbody>
                             <tr>
                                 <th scope="row"><input type="checkbox" class="" id="" name="" value="checkOne"/></th>
-                                <td>2024.12.34</td>
+                                <td>참조</td>
                                 <td>휴가신청서</td>
                                 <td class="hp_alignL">휴가신청서_홍길동</td>
+                                <td></td>
                                 <td>김철수</td>
-                                <td>김영희</td>
+                                <td>2024.12.34</td>
+                            </tr>
+                            <tr>
+                                <th scope="row"><input type="checkbox" class="" id="" name="" value="checkOne"/></th>
+                                <td>열람</td>
+                                <td>휴가신청서</td>
+                                <td class="hp_alignL">휴가신청서_홍길동</td>
+                                <td></td>
+                                <td>김철수</td>
+                                <td>2024.12.34</td>
                             </tr>
                         </tbody>
                     </table>

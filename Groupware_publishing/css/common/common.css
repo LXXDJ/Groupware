@@ -26,6 +26,11 @@
 .bl_nav__menu *{display:block;line-height:3;}
 .bl_nav__menu a:hover{background:#f0f0f0;}
 
+.bl_navToggle__btn{cursor:pointer;position:relative;}
+.bl_navToggle__btn::after{content:"";display:block;border-top:8px solid #363636;border-left:5px solid transparent;border-right:5px solid transparent;position:absolute;right:30px;top:45%;}
+.bl_navToggle__btn.bl_navToggle__open::after{transform:rotate(180deg);}
+.bl_navToggle__cont{display:none;}
+
 /* table */
 .bl_tb1{text-align:center;}
 .bl_tb1 th,.bl_tb1 td{padding:5px;}
@@ -39,7 +44,7 @@
 .bl_tb2 tr{border-top:1px solid #ebebeb;}
 .bl_tb2 tr:first-child{border-top:none;}
 
-.bl_tb3{border:1px solid #ebebeb;}
+.bl_tb3{border:1px solid #ebebeb;background-color:#fff;}
 .bl_tb3 th{background:#f9f9f9;}
 .bl_tb3 th,.bl_tb3 td{padding:10px;}
 .bl_tb3 tr{border-top:1px solid #ebebeb;}
